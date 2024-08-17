@@ -1,0 +1,52 @@
+/* !!! alterar cor do botão no hover */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+.bgc_medium{
+    background-color: #74a398;
+}
+.bgc_light{
+    background-color: #f0fffb;
+}
+.bgc_dark{
+    background-color: #1d5a4c;
+    ;
+}
+.color_light{
+    color: #F1F1F1;
+}
+.h-100vh{
+    height: 100vh;
+}
+
+.width-card{
+    width: 50%;
+}
+@media (max-width: 991.98px) { 
+    .width-card{
+        width: 100%;
+    }
+ }
+
+ .width-table{
+    width: 100%;
+ }
+ .width-fit{
+    width: fit-content;
+ }
+
+ .wSpace-noWrap{
+    white-space: nowrap;
+ }
+ #btn_newPost{
+    color: #1d5a4c;
+    background-color: #f0fffb;
+    border-color: #74a398;
+ }
+ #btn_newPost:hover{
+    background-color: #1d5a4c;
+    color: #f0fffb;
+ }
